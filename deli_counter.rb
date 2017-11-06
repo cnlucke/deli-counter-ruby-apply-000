@@ -1,4 +1,4 @@
-## Outputs line if populated, otherwise outputs empty message
+## Outputs line message if populated, otherwise outputs empty message
 def line(line)
   if (line.empty?)
     puts "The line is currently empty."
